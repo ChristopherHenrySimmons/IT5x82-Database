@@ -1,0 +1,25 @@
+use SKBTEST;
+
+CREATE TABLE PROFESSOR
+(
+ P_Id int NOT NULL PRIMARY KEY,
+ P_NAME varchar(50) not null,
+ P_PHONE varchar(50)
+);
+
+CREATE TABLE STUDENT
+(
+ S_Id int NOT NULL PRIMARY KEY,
+ S_NAME varchar(50) not null,
+ S_PHONE varchar(50)
+);
+
+CREATE TABLE TEACH
+(
+ P_Id int NOT NULL,
+ S_Id int NOT NULL,
+ T_ROOM varchar(5),
+ PRIMARY KEY (P_Id,S_Id),
+ CONSTRAINT p_fk FOREIGN KEY (P_Id) REFERENCES PROFESSOR (P_Id),
+ CONSTRAINT s_fk FOREIGN KEY (S_Id) REFERENCES STUDENT (S_Id)
+);

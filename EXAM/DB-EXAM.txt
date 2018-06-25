@@ -1,0 +1,86 @@
+Data vs. Information and Knowledge
+Data are raw facts
+Information is the result of processing raw data to reveal meaning
+Information requires context to reveal meaning
+Raw data must be formatted for storage, processing, and presentation
+Data are the foundation of information, which in turn can lead to new knowledge
+
+Data: the building blocks of information (raw facts)	
+e.g. a student’s name, address etc.
+
+Information: produced by processing data
+e.g. the total number of students enrolled in each course
+
+Knowledge is the discovery of new patterns and relationships in data that allow actions to be taken
+e.g. Discovering the characteristics of students who fail and taking steps to reduce this problem
+
+Introducing the Database and the DBMS
+Database: shared, integrated computer structure that stores a collection of data
+End-user data: raw facts of interest to the end user
+Metadata: data about data
+Metadata provides description of data characteristics and relationships in data
+Complements and expands value of data
+Database management system (DBMS): collection of programs
+Manage structure and control access to data
+
+Role and Advantages of the DBMS
+DBMS is the intermediary between the user and the database
+Access database through the DBMS
+DBMS enables data to be shared 
+DBMS integrates many users’ views of the data
+
+Advantages of a DBMS:
+Improved data sharing
+Improved data security
+Better data integration
+Minimized data inconsistency 
+Improved data access
+Improved decision making
+Increased end-user productivity
+
+Types of Databases
+Databases can be classified according to:
+Number of users
+Database location(s)
+Expected type and extent of use
+Single-user database supports only one user at a time
+Desktop database – single-user, runs on PC
+Multiuser database supports multiple users at the same time
+Workgroup database supports a small number
+Enterprise database supports a large number
+
+Data Redundancy
+Data redundancy: same data stored unnecessarily in different places
+Data inconsistency: different and conflicting versions of same data occur at different places
+
+Database Systems
+Database system consists of logically related data stored in a single logical data repository
+May be physically distributed among multiple storage facilities
+Current generation stores data structures, relationships between structures, access paths
+Takes care of defining, storing, managing all access paths and components
+
+DBMS Functions
+Most functions transparent to end users
+Can only be achieved through the DBMS
+Data dictionary management
+DBMS stores definitions of data elements and relationships (metadata) in a data dictionary
+Data storage management
+DBMS creates and manages complex structures required for data storage
+Data transformation and presentation
+Security management
+Multiuser access control
+Backup and recovery management
+Data integrity management 
+Database access languages and application programming interfaces
+DBMS provides access through a query language
+Structured Query Language (SQL) is the de facto query language 
+Standard supported by majority of DBMS vendors
+
+
+
+
+
+
+
+
+

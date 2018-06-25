@@ -1,0 +1,18 @@
+CREATE TABLE USERS(
+USERS_ID TINYINT NOT NULL, 
+FirstName VARCHAR (20) NOT NULL, 
+Surname VARCHAR (20) NOT NULL, 
+Email VARCHAR (50) NOT NULL, 
+Phone INT NOT NULL, 
+HireDate DATE NULL, 
+Qualifications VARCHAR NULL,
+PRIMARY KEY (USERS_ID)
+);
+
+INSERT into USERS (USERS_ID, FirstName, Surname, Email, Phone, HireDate, Qualifications)
+VALUES 
+('1','George','Tongariro','Tongariro@gtmail.com','0477777','23091998','Owner'),
+('2','Thye','Dude','ThyeDude@gtmail.com','0477091','20170723','Mechanic'),
+('3','Moon','Dude','MoonDude@gtmail.com','04784576','20140619','Admin'),
+('4','Cheese','Dip','CheeseDip@gtmail.com','0927216','20110211','Admin'),
+('5','Dave','Dingo','DaveDingo@gtmail.com','0499821','19990717','Mechanic');
